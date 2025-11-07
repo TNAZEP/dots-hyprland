@@ -41,75 +41,75 @@ Singleton {
     m3colors: QtObject {
         property bool darkmode: true
         property bool transparent: false
-        property color m3background: "#141313"
-        property color m3onBackground: "#e6e1e1"
-        property color m3surface: "#141313"
-        property color m3surfaceDim: "#141313"
-        property color m3surfaceBright: "#3a3939"
-        property color m3surfaceContainerLowest: "#0f0e0e"
-        property color m3surfaceContainerLow: "#1c1b1c"
-        property color m3surfaceContainer: "#201f20"
-        property color m3surfaceContainerHigh: "#2b2a2a"
-        property color m3surfaceContainerHighest: "#363435"
-        property color m3onSurface: "#e6e1e1"
-        property color m3surfaceVariant: "#49464a"
-        property color m3onSurfaceVariant: "#cbc5ca"
-        property color m3inverseSurface: "#e6e1e1"
-        property color m3inverseOnSurface: "#313030"
-        property color m3outline: "#948f94"
-        property color m3outlineVariant: "#49464a"
-        property color m3shadow: "#000000"
-        property color m3scrim: "#000000"
-        property color m3surfaceTint: "#cbc4cb"
-        property color m3primary: "#cbc4cb"
-        property color m3onPrimary: "#322f34"
-        property color m3primaryContainer: "#2d2a2f"
-        property color m3onPrimaryContainer: "#bcb6bc"
-        property color m3inversePrimary: "#615d63"
-        property color m3secondary: "#cac5c8"
-        property color m3onSecondary: "#323032"
-        property color m3secondaryContainer: "#4d4b4d"
-        property color m3onSecondaryContainer: "#ece6e9"
-        property color m3tertiary: "#d1c3c6"
-        property color m3onTertiary: "#372e30"
-        property color m3tertiaryContainer: "#31292b"
-        property color m3onTertiaryContainer: "#c1b4b7"
-        property color m3error: "#ffb4ab"
-        property color m3onError: "#690005"
-        property color m3errorContainer: "#93000a"
-        property color m3onErrorContainer: "#ffdad6"
-        property color m3primaryFixed: "#e7e0e7"
-        property color m3primaryFixedDim: "#cbc4cb"
-        property color m3onPrimaryFixed: "#1d1b1f"
-        property color m3onPrimaryFixedVariant: "#49454b"
-        property color m3secondaryFixed: "#e6e1e4"
-        property color m3secondaryFixedDim: "#cac5c8"
-        property color m3onSecondaryFixed: "#1d1b1d"
-        property color m3onSecondaryFixedVariant: "#484648"
-        property color m3tertiaryFixed: "#eddfe1"
-        property color m3tertiaryFixedDim: "#d1c3c6"
-        property color m3onTertiaryFixed: "#211a1c"
-        property color m3onTertiaryFixedVariant: "#4e4447"
-        property color m3success: "#B5CCBA"
-        property color m3onSuccess: "#213528"
-        property color m3successContainer: "#374B3E"
-        property color m3onSuccessContainer: "#D1E9D6"
-        property color term0: "#EDE4E4"
-        property color term1: "#B52755"
-        property color term2: "#A97363"
-        property color term3: "#AF535D"
-        property color term4: "#A67F7C"
-        property color term5: "#B2416B"
-        property color term6: "#8D76AD"
-        property color term7: "#272022"
-        property color term8: "#0E0D0D"
-        property color term9: "#B52755"
-        property color term10: "#A97363"
-        property color term11: "#AF535D"
-        property color term12: "#A67F7C"
-        property color term13: "#B2416B"
-        property color term14: "#8D76AD"
-        property color term15: "#221A1A"
+        property color m3background: "#0D0C0C"
+        property color m3onBackground: "#C5C9C5"
+        property color m3surface: "#0D0C0C"
+        property color m3surfaceDim: "#0D0C0C"
+        property color m3surfaceBright: "#938AA9"
+        property color m3surfaceContainerLowest: "#0D0C0C"
+        property color m3surfaceContainerLow: "#938AA9"
+        property color m3surfaceContainer: "#A292A3"
+        property color m3surfaceContainerHigh: "#A6A69C"
+        property color m3surfaceContainerHighest: "#C4B28A"
+        property color m3onSurface: "#C5C9C5"
+        property color m3surfaceVariant: "#A292A3"
+        property color m3onSurfaceVariant: "#C5C9C5"
+        property color m3inverseSurface: "#C8C093"
+        property color m3inverseOnSurface: "#0D0C0C"
+        property color m3outline: "#938AA9"
+        property color m3outlineVariant: "#A292A3"
+        property color m3shadow: "#0D0C0C"
+        property color m3scrim: "#0D0C0C"
+        property color m3surfaceTint: "#E46876"
+        property color m3primary: "#E46876"
+        property color m3onPrimary: "#0D0C0C"
+        property color m3primaryContainer: "#C4746E"
+        property color m3onPrimaryContainer: "#0D0C0C"
+        property color m3inversePrimary: "#E6C384"
+        property color m3secondary: "#7AA89F"
+        property color m3onSecondary: "#0D0C0C"
+        property color m3secondaryContainer: "#8EA4A2"
+        property color m3onSecondaryContainer: "#0D0C0C"
+        property color m3tertiary: "#7FB4CA"
+        property color m3onTertiary: "#0D0C0C"
+        property color m3tertiaryContainer: "#8BA4B0"
+        property color m3onTertiaryContainer: "#0D0C0C"
+        property color m3error: "#E46876"
+        property color m3onError: "#0D0C0C"
+        property color m3errorContainer: "#C4746E"
+        property color m3onErrorContainer: "#0D0C0C"
+        property color m3primaryFixed: "#E6C384"
+        property color m3primaryFixedDim: "#C4B28A"
+        property color m3onPrimaryFixed: "#0D0C0C"
+        property color m3onPrimaryFixedVariant: "#0D0C0C"
+        property color m3secondaryFixed: "#8EA4A2"
+        property color m3secondaryFixedDim: "#7AA89F"
+        property color m3onSecondaryFixed: "#0D0C0C"
+        property color m3onSecondaryFixedVariant: "#0D0C0C"
+        property color m3tertiaryFixed: "#8BA4B0"
+        property color m3tertiaryFixedDim: "#7FB4CA"
+        property color m3onTertiaryFixed: "#0D0C0C"
+        property color m3onTertiaryFixedVariant: "#0D0C0C"
+        property color m3success: "#87A987"
+        property color m3onSuccess: "#0D0C0C"
+        property color m3successContainer: "#8A9A7B"
+        property color m3onSuccessContainer: "#0D0C0C"
+        property color term0: "#0D0C0C"
+        property color term1: "#C4746E"
+        property color term2: "#8A9A7B"
+        property color term3: "#C4B28A"
+        property color term4: "#7FB4CA"
+        property color term5: "#938AA9"
+        property color term6: "#7AA89F"
+        property color term7: "#C5C9C5"
+        property color term8: "#A6A69C"
+        property color term9: "#E46876"
+        property color term10: "#87A987"
+        property color term11: "#E6C384"
+        property color term12: "#8BA4B0"
+        property color term13: "#A292A3"
+        property color term14: "#8EA4A2"
+        property color term15: "#C8C093"
     }
 
     colors: QtObject {
@@ -188,28 +188,28 @@ Singleton {
     }
 
     rounding: QtObject {
-        property int unsharpen: 2
-        property int unsharpenmore: 6
-        property int verysmall: 8
-        property int small: 12
-        property int normal: 17
-        property int large: 23
-        property int verylarge: 30
+        property int unsharpen: 0
+        property int unsharpenmore: 2
+        property int verysmall: 2
+        property int small: 3
+        property int normal: 4
+        property int large: 6
+        property int verylarge: 8
         property int full: 9999
-        property int screenRounding: large
-        property int windowRounding: 18
+        property int screenRounding: 0
+        property int windowRounding: 0
     }
 
     font: QtObject {
         property QtObject family: QtObject {
-            property string main: "Roboto Flex"
-            property string numbers: "Rubik"
-            property string title: "Gabarito"
-            property string iconMaterial: "Material Symbols Rounded"
+            property string main: "JetBrains Mono NL"
+            property string numbers: "JetBrains Mono NL"
+            property string title: "JetBrains Mono NL"
+            property string iconMaterial: "Material Symbols Outlined"
             property string iconNerd: "JetBrains Mono NF"
             property string monospace: "JetBrains Mono NF"
-            property string reading: "Readex Pro"
-            property string expressive: "Space Grotesk"
+            property string reading: "JetBrains Mono NL"
+            property string expressive: "JetBrains Mono NL"
         }
         property QtObject variableAxes: QtObject {
             // Roboto Flex is customized to feel geometric, unserious yet not overly kiddy

@@ -15,8 +15,8 @@ RippleButton {
     implicitWidth: buttonTextWidget.implicitWidth + padding * 2
     buttonRadius: Appearance?.rounding.full ?? 9999
 
-    property color colEnabled: Appearance?.colors.colPrimary ?? "#65558F"
-    property color colDisabled: Appearance?.m3colors.m3outline ?? "#8D8C96"
+    property color colEnabled: Appearance?.colors.colPrimary ?? "#938AA9"
+    property color colDisabled: Appearance?.m3colors.m3outline ?? "#A6A69C"
     colBackground: ColorUtils.transparentize(Appearance.colors.colLayer3)
     colBackgroundHover: Appearance.colors.colLayer3Hover
     colRipple: Appearance.colors.colLayer3Active

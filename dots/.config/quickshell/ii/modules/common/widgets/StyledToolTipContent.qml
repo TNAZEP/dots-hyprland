@@ -22,7 +22,7 @@ Item {
             bottom: root.bottom
             horizontalCenter: root.horizontalCenter
         }
-        color: Appearance?.colors.colTooltip ?? "#3C4043"
+        color: Appearance?.colors.colTooltip ?? "#A292A3"
         radius: Appearance?.rounding.verysmall ?? 7
         opacity: shown ? 1 : 0
         implicitWidth: shown ? (tooltipTextObject.implicitWidth + 2 * root.horizontalPadding) : 0
@@ -45,7 +45,7 @@ Item {
             text: root.text
             font.pixelSize: Appearance?.font.pixelSize.smaller ?? 14
             font.hintingPreference: Font.PreferNoHinting // Prevent shaky text
-            color: Appearance?.colors.colOnTooltip ?? "#FFFFFF"
+            color: Appearance?.colors.colOnTooltip ?? "#0D0C0C"
             wrapMode: Text.Wrap
         }
     }   

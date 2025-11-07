@@ -10,7 +10,7 @@ Item {
     property int implicitSize: 100
     property real amplitude: implicitSize / 50
     property int renderPoints: 360
-    property color color: "#605790"
+    property color color: "#938AA9"
     property alias strokeWidth: shapePath.strokeWidth
     property bool constantlyRotate: false
 
