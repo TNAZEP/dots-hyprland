@@ -24,11 +24,11 @@ Button {
     property var middleClickAction // When middle clicking
 
     property color colBackground: ColorUtils.transparentize(Appearance?.colors.colLayer1Hover, 1) || "transparent"
-    property color colBackgroundHover: Appearance?.colors.colLayer1Hover ?? "#E5DFED"
-    property color colBackgroundToggled: Appearance?.colors.colPrimary ?? "#65558F"
-    property color colBackgroundToggledHover: Appearance?.colors.colPrimaryHover ?? "#77699C"
-    property color colRipple: Appearance?.colors.colLayer1Active ?? "#D6CEE2"
-    property color colRippleToggled: Appearance?.colors.colPrimaryActive ?? "#D6CEE2"
+    property color colBackgroundHover: Appearance?.colors.colLayer1Hover ?? "#C5C9C5"
+    property color colBackgroundToggled: Appearance?.colors.colPrimary ?? "#938AA9"
+    property color colBackgroundToggledHover: Appearance?.colors.colPrimaryHover ?? "#A292A3"
+    property color colRipple: Appearance?.colors.colLayer1Active ?? "#A6A69C"
+    property color colRippleToggled: Appearance?.colors.colPrimaryActive ?? "#A6A69C"
 
     opacity: root.enabled ? 1 : 0.4
     property color buttonColor: ColorUtils.transparentize(root.toggled ? 

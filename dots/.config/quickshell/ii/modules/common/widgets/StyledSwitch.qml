@@ -12,8 +12,8 @@ Switch {
     property real scale: 0.6 // Default in m3 spec is huge af
     implicitHeight: 32 * root.scale
     implicitWidth: 52 * root.scale
-    property color activeColor: Appearance?.colors.colPrimary ?? "#685496"
-    property color inactiveColor: Appearance?.colors.colSurfaceContainerHighest ?? "#45464F"
+    property color activeColor: Appearance?.colors.colPrimary ?? "#938AA9"
+    property color inactiveColor: Appearance?.colors.colSurfaceContainerHighest ?? "#A6A69C"
 
     PointingHandInteraction {}
 

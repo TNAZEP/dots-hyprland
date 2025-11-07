@@ -12,7 +12,7 @@ Item {
     property alias bottomVisualMargin: shape.anchors.bottomMargin
 
     property int implicitSize: 25
-    property color color: "#000000"
+    property color color: "#0D0C0C"
 
     implicitWidth: implicitSize
     implicitHeight: implicitSize

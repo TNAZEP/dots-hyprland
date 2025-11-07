@@ -9,9 +9,9 @@ import Quickshell
 RippleButton {
     id: lightDarkButtonRoot
     required property bool dark
-    property color previewBg: dark ? ColorUtils.colorWithHueOf("#3f3838", Appearance.m3colors.m3primary) : 
-        ColorUtils.colorWithHueOf("#F7F9FF", Appearance.m3colors.m3primary)
-    property color previewFg: dark ? Qt.lighter(previewBg, 2.2) : ColorUtils.mix(previewBg, "#292929", 0.85)
+    property color previewBg: dark ? ColorUtils.colorWithHueOf("#0D0C0C", Appearance.m3colors.m3primary) :
+        ColorUtils.colorWithHueOf("#C5C9C5", Appearance.m3colors.m3primary)
+    property color previewFg: dark ? Qt.lighter(previewBg, 2.2) : ColorUtils.mix(previewBg, "#0D0C0C", 0.85)
     padding: 5
     Layout.fillWidth: true
     colBackground: Appearance.colors.colLayer2
